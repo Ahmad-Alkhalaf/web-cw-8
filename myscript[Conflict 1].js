@@ -30,37 +30,37 @@ function press(x,y) {
     choice.innerText = player;
     
     if ( player == board[0][0] && player == board[0][1] && player == board[0][2] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[1][0] && player == board[1][1] && player == board[1][2] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[2][0] && player == board[2][1] && player == board[2][2] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[0][0] && player == board[1][0] && player == board[2][0] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[0][1] && player == board[1][1] && player == board[2][1] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[0][2] && player == board[1][2] && player == board[2][2] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[0][0] && player == board[1][1] && player == board[2][2] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     } else if ( player == board[0][2] && player == board[1][1] && player == board[2][0] ) {
-        alert(`WINNER ${player}`)
         var audio1 = new Audio("./win.mp3")
         audio1.play()
+        alert(`WINNER ${player}`)
     }
 }
 
